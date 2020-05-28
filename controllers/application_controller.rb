@@ -16,8 +16,6 @@ class ApplicationController < ActionController::Base
       puts online
       puts current_user.id
       online.track(current_user.id)
-      puts online.online_user_ids
-      puts 'ssssssssssssssssssssssssssssssssss'
     end
   end
   def default_serializer_options
